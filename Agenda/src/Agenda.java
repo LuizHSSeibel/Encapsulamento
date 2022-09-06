@@ -18,6 +18,7 @@ public class Agenda {
         dia=d;
         mes=m;
         anotacao=nota;
+        validaData();
     }
     void validaData(){
         if ((dia<1)||(dia>31)||(mes>12)) {
